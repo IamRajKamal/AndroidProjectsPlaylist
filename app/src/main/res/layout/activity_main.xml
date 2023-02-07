@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="500dp"
+        android:layout_height="300dp"
+        android:layout_gravity="center"
+        android:paddingHorizontal="@dimen/cardview_default_radius"
+        android:src="@drawable/kohlivsengland" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:scrollbarStyle="insideInset">
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+            android:text="The Pic You all are looking at , I think you all are well known of the person . He is the gem Of Indian Cricket and a person.
+
+Let me talk about the inning this pic has been taken.
+India was in a dramatic position in this test match against england in 2018. Englan has made total 287 runs in the first inning on the basis of joe root's 80 runs and bairstow's 70 runs.
+india were in trouble losing 2 wickets on 59 runs only.
+Then The King Kohli made his entry into the ground.
+he started scoring runs but on the other side wickets were falling like leaves of a tree. India were 100/5 and Only Virat Kohli was able to stay on the pitch .
+with Hardik Pandya, Virat Kohli stitched a partnership of 48 runs and then pandya also got out by sam curran . sam curran had became the real tension of the Indian team on this whole tour troubling indian batsmen with his swinging balls and bouncers.
+But Virat Kohli was seem to be batting against a different bowling side than his teammates .
+India's Batting has came under Low order batsmen to come out only .
+Virat Kohli then stitched a partnership with every lower order batsman to fetch his century and then he roared the way like a lion .
+He went on to increase his inning to 149 runs and was not looking like he will get out but as no batsman could withstand on the other side . when last pair was on the strike he tried to go berserk on the bowlers and in the try of maximizing the score and minimizing the lead he got out on a score of 149 runs.
+this inning will be remembered as a best knock of his test career because he has played this inning in opposite circumstances.
+That's all from me RajKamal , a fan of kohli's batting and I tried to write these sentences as i am learning to develop app
+❤️❤️❤️
+"
+            android:textSize="15sp"
+            android:textStyle="italic" />
+
+
+    </ScrollView>
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:padding="0dp"
+        app:srcCompat="@drawable/raj" />
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:layout_gravity="center"
+        android:text="This is me 😊❤️" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+
+</LinearLayout>
+
+
+
